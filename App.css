@@ -1,0 +1,127 @@
+.App{
+    text-align: center;
+    margin:auto;
+    margin-top: 300px;
+    width: 500px;
+
+}
+form {
+    display:flex;
+    font-size: 1.7rem;
+    justify-content: center;
+    margin: 15px 0;
+    padding: 0.8rem;
+    width: 100%;
+}
+form input {
+    padding: 10px;
+    font-size: 17px;
+    border:none;
+    outline: none;
+    /* border-radius: 15; */
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    max-width: 500px;
+    transition: background-color 200ms ease-in-out;
+    width: 100%;
+}
+/* Input themes */
+form input.standard-input {
+    background-color: #181a1a;
+    color: rgb(247, 226, 223);
+}
+form input.light-input {
+    background-color: #AEB1B4;
+    color: #1a150e;
+}
+form input.light-input::placeholder {
+    color: #1a150e;
+    opacity: 0.7;
+}
+form input.darker-input {
+    background-color: #01394c;
+    color: white;
+}
+form input.darker-input::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+form input:hover {
+    cursor: text;
+}
+form input.standard-input:hover {
+    background-color: rgb(0, 0, 0);
+}
+form input.light-input:hover {
+    background-color: #919699;
+}
+form input.darker-input:hover {
+    background-color: #013141;
+}
+button {
+
+    border: none;
+    outline: none; 
+    transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
+}
+button:hover {
+    cursor:none;
+}
+/* Button themes */
+button.standard-button {
+    background-color: rgb(247, 226, 223);
+    color: rgb(0, 0, 0);
+}
+button.standard-button:hover {
+    background-color: white;
+    box-shadow: #fff8 0 0 10px;
+}
+button.light-button {
+    background-color: white;
+    color: #1a150e;
+}
+button.light-button:hover {
+    background-color: #f0f0f0;
+}
+button.darker-button {
+    background-color: #002837;
+    color: white;
+}
+button.darker-button:hover {
+    background-color: #001f29;
+}
+form button {
+    padding: 10px;
+    font-size: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    min-width: 100px;
+}
+ul{
+    margin:auto;
+    margin-top: 10px;
+    border-color:  rgb(0, 238, 255);
+
+}
+ul li{
+    display: inline-block;
+    width: 80%;
+    font-size: 30px;
+    color: aliceblue;
+    font-style:inherit;
+    border-bottom: 2px solid rgb(0, 238, 255);
+    text-align: left;
+    
+
+
+    
+}
+.done{
+    text-decoration-line: line-through;
+    text-decoration-color:brown 
+}
+h1{
+    margin-top: 50px;
+    color: aliceblue;
+    font-size: 70px;
+}
